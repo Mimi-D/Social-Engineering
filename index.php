@@ -33,7 +33,7 @@
         <linK rel="stylesheet" href="style.css">
     </head>
     <body class="bg-image" style="width: 100%;">
-        <div style="width:24%; margin:auto; background-color: white;">
+        <div style="width:40%; margin:auto; background-color: white;">
             <form method="post"> 
                 <div style="padding:10px">
                     <div class="imgcontainer">
@@ -46,7 +46,7 @@
                         </span>
                         <h4 style="font-family:serif; font-weight: 700; margin-top:10px; font-size:20px">Enter Password</h4>
                         <input id="unbordered" onclick="myFunction()" style="border-top:0; border-right:0; border-left:0; text-align: left; padding:2px; margin-top:20px; font-size:14px" type="password" placeholder="Password" name="psw" required>
-                        <label style="margin-top:10px; font-size:10px; font-type:serif" id ="underline"><a style="color:#055fa3;" href="https://outlook.office365.com/mail/">Forgotten my Password</a></label>
+                        <label style="margin-top:10px; font-size:13px; font-type:serif" id ="underline"><a style="color:#055fa3;" href="https://outlook.office365.com/mail/">Forgotten my Password</a></label>
                     </div>
                     <div class="container" style="width:35%; margin:auto; margin-right:20px; margin-top:-10px; margin-bottom:15px">
                         <button class="btn btn-primary" style="border-color: #055fa3; border-radius: 0; padding:3px; font-size:14px; background-color: #055fa3;"  type="submit" name='login'>Sign in</button>
